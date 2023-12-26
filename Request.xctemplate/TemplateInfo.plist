@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A Baam Request Swift file.</string>
+	<key>Summary</key>
+	<string>A Baam Request Swift file.</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>Request</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___Request.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>modelClassName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Response Model Class:</string>
+			<key>Description</key>
+			<string>name of the Codable class as model</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>mockFileName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Mock Name:</string>
+			<key>Description</key>
+			<string>The name of the mock json file</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>httpMethod</string>
+			<key>Required</key>
+			<false/>
+			<key>Name</key>
+			<string>HTTP Method:</string>
+			<key>Description</key>
+			<string>The HTTP method used by the request (get,post,...)</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>
