@@ -22,27 +22,13 @@
 	<array>
 		<dict>
 			<key>Identifier</key>
-			<string>modelClassName</string>
+			<string>path</string>
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Response Model Class:</string>
+			<string>URL Path:</string>
 			<key>Description</key>
-			<string>name of the Codable class as model</string>
-			<key>Type</key>
-			<string>text</string>
-			<key>NotPersisted</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>mockFileName</string>
-			<key>Required</key>
-			<true/>
-			<key>Name</key>
-			<string>Mock Name:</string>
-			<key>Description</key>
-			<string>The name of the mock json file</string>
+			<string>Service URL Path</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>NotPersisted</key>
