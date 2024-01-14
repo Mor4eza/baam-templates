@@ -11,7 +11,7 @@ class ___FILEBASENAMEASIDENTIFIER___: Request {
     var mockStatusCode: Int = 200
     var method: HTTPMethod = .___VARIABLE_httpMethod___
     var path: String {
-        return ___VARIABLE_path___
+        return "___VARIABLE_path___"
     }
     
     // MARK: - Initializers
